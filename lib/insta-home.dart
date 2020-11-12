@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fluttergram/bottom-navigation-bar.dart';
 
 class InstaHome extends StatelessWidget {
   final topBar = new AppBar(
@@ -20,6 +21,8 @@ class InstaHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: topBar,
+      body: new Container(),
+      bottomNavigationBar: bottomNavigationBar
     );
   }
 }
