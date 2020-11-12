@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fluttergram/insta-list.dart';
 import 'package:fluttergram/insta-stories.dart';
 
 class InstaBody extends StatelessWidget {
@@ -12,6 +13,7 @@ class InstaBody extends StatelessWidget {
           child: new InstaStories(),
           height: device.height * 0.20,
         ),
+        Flexible(child: InstaList())
       ],
     );
   }
